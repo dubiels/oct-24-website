@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Karolina Dubiel - coder, founder, student</title>
+    <!-- <description>I'm a Georgia Tech CS major heading the Girls in Aerospace Foundation.</description> -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    
+    <script src="script.js"></script>
+  </head>
+
+  <body class="padded" style="padding-top: 5vmin">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+    <body class="flex flex-col items-center pt-[5vmin]">
+      <div id="orb"></div>
+      
+      <div class="w-full flex flex-col items-center justify-center pb-[3vmin]">
+        <div class="flex items-center space-x-2">
+          <label id="theme" onclick="theme()" class="cursor-pointer inline-block">
+            <input type="checkbox" value="" class="sr-only peer">
+            <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+          </label> 
+          <p class="inline-block" id="themeLabel">Prefer dark mode?</p>
+        </div>
+      </div>
+    
+      <div class="w-full">
+        <p class="mb-0">Hey 👋 my name is</p>
+        <div class="flex items-center space-x-10">
+        <h1 class="mt-0 text-[10vmin] mb-1 opacity-70">
+          Karolina Dubiel
+        </h1>
+        <p class="button bg-blue-800 inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-white animate-bounce hover:cursor-pointer">
+          <a href="https://www.linkedin.com/in/karolinadubiel/" style="font-weight: normal">Let's connect →</a>
+        </p>
+      </div>
+    
+        <p class="mt-0 mb-6">
+          I'm a Georgia Tech Computer Science major concentrating in Cybersecurity
+          and People. As the daughter of first-generation immigrants, I'm passionate
+          about STEM equality and opportunity access. I also love matcha, hiking,
+          good sushi, and the New York Times mini crossword! <br> <br> Outside of
+          internships and school, here's what I've been working on:
+        </p>
+      </div>
+  
+    
+      <div class="grid xl:grid-cols-2 gap-8 w-full">
+        <div
+          class="hackathon-box bg-cover bg-center bg-[url('img/htn.jpg')] transition ease-in-out hover:-translate-y-1 hover:scale-105 hover: duration-180 hover:cursor-default"
+          style="background-position-y: 65%;">
+          <div class="overlay" style="height:100%">
+            <div class="text-left">
+              <p class="bg-green-900 inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-white">
+                🥇 Best Developer Tool
+              </p>
+            </div>
+            <h2 class="mb-1" style="font-size: 1.5em">Hack the North '24: APICasso</h2>
+            <p class="mt-1 mb-1 text-white font-light">
+              At <b>Canada's largest hackathon,</b> my team created APIcasso, <u>a
+              web app designed to scrape any website and turn it into an API</u> using
+              custom Chrome drivers, Selenium, and Cohere's API.
+            </p>
+            <div class="text-right text-lightgray">
+              <a href="https://www.linkedin.com/posts/karolinadubiel_this-past-weekend-i-competed-at-hack-the-activity-7241540607750348800-rfwl/"><p class="button bg-[#fffaf0] inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-black">LinkedIn post →</p></a>
+              <a href="https://devpost.com/software/apicasso"><p class="button bg-[#fffaf0] inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-black">See the demo →</p></a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="hackathon-box bg-[#222] p-4 transition ease-in-out hover:-translate-y-1 hover:scale-105 hover: duration-180 hover:cursor-default" style="padding: 2em; padding-top: 0.5em">
+          <div class="text-left">
+            <p class="bg-green-900 inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-white">
+              🥇 Overall Winner
+            </p>
+            <p class="bg-green-900 inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-white">
+              🥇 Southface Challenge
+            </p>
+          </div>
+          <h2 class="mb-1" style="font-size: 1.5em">Impact Hack '23: Particle Visualization</h2>
+          <p class="mt-1 mb-1 text-white">
+            I created a <u>live air pollutant particle visualization tool</u> for any
+            area in the world using Particle.JS and the OpenWeatherMap API, winning
+            among 300+ other hackers. <br> A fully functional live demo is available 
+            <a href="https://karolina.mgdubiel.com/particle" class="underline">here.</a>
+          </p>
+          <div class="text-right">
+            <a href="https://www.linkedin.com/posts/karolinadubiel_webdevelopment-climatetech-hackathon-activity-7129535748583682049-ayRf/"><p class="button bg-[#fffaf0] inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-black">LinkedIn post →</p></a>
+            <a href="https://karolina.mgdubiel.com/particle"><p class="button bg-[#fffaf0] inline-block px-3 py-1 rounded mb-[1.5vmin] mt-[1.5vmin] text-black animate-pulse">See the demo →</p></a>
+          </div>
+        </div>
+      </div>
+    </body>
+    
+
+    <div class="grid xl:grid-cols-3 gap-4 mt-6">
+      <div class="col-span-3 mb-6">
+        <p>For over 4 years, I led the <u>Girls in Aerospace Foundation</u>, a 501(c)3 non-profit dedicated to empowering young women in STEM and aviation, whose most impactful program paired over 300 women ages 14-24 one-on-one with a mentor in the aerospace field for a 6-week mentorship program. You may have seen me in:</p>
+      </div>
+    
+      <div class="xl:col-span-1">
+        <iframe
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/episode/0rEvQDdCprq6sjMCZdjgS4?utm_source=generator"
+          width="100%"
+          height="300px"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+    
+      <div class="xl:col-span-1">
+        <iframe
+          style="border-radius:12px"
+          src="https://open.spotify.com/embed/episode/5xyBrOPTwCfQZoYw7Yulwh?utm_source=generator"
+          width="100%"
+          height="300px"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+      </div>
+    
+      <div class="xl:col-span-1">
+        <iframe
+          width="100%"
+          height="232px"
+          style="border-radius: 12px"
+          src="https://www.youtube.com/embed/9NjrsGyvTj8?si=bOewamZcK_Z8JOM8"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    
+  </body>
+</html>
